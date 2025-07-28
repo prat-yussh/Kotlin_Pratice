@@ -1,19 +1,14 @@
-abstract class Animal {
-    abstract fun Eating()
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
 
-    fun sleep() {
-        println("Sleeping")
-    }
-}
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-class Dog : Animal() {
-    override fun Eating() {
-        println("Eat")
-    }
-}
-
-fun main(args: Array<String>) {
-    val Dog1 = Dog()
-    Dog1.Eating()
-    Dog1.sleep()
-}
+    <
+</LinearLayout> 
